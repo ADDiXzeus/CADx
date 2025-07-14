@@ -170,7 +170,11 @@
             <p class="sub-headline">Coming Soon</p>
 
             <!-- Optional Email Capture Form for Netlify -->
-            <form name="subscribe" method="POST" data-netlify="true" class="email-form">
+            <form name="notify"
+                  method="POST"
+                  data-netlify="true"
+                  class="email-form">
+                <input type="hidden" name="form-name" value="notify" />
                 <input 
                     type="email" 
                     name="email" 
